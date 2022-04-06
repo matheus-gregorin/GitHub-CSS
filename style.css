@@ -89,6 +89,7 @@ body {
     height: 150px;
     align-items: center;
     justify-content: center;
+  
 
   }
 
@@ -149,5 +150,86 @@ form button {
     cursor: pointer;
 
 }
+
+.informacao { 
+    width: 150px;
+    height: 200px;
+    
+}
+
+.info .container  {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 100px 0px 100px;
+    align-items: baseline;
+    
+
+}
+
+.info {
+    background-color: rgba(214, 214, 214, 0.63);
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+span {
+    color: #e6005a;
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 0%;
+
+}
+
+span .container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+.barra .container {
+  display: flex;
+  padding: 5px 100px 0px 100px;
+
+
+}
+
+.escrita {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0%;
+  padding: 0%;
+
+}
+
+.visiom1 {
+  
+  display: flex;
+  padding: 0px 5px 5px 5px;
+  margin: 10%;
+  height: 50px;
+  width: 10%;
+   
+}
+
+
+.escrita .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
+  align-items: center;
+
+
+}
+
+
+
 
 
